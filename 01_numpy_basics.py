@@ -1,3 +1,4 @@
+#NumPy
 import numpy as np  
 
 # 1. Python ro'yxati va NumPy massivini solishtirish
