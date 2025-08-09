@@ -1,4 +1,4 @@
-# 3-kun: Indexing, Slicing, Boolean Indexing, Fancy Indexing, Shape manipulations
+#  3-kun: Indexing, Slicing, Boolean Indexing, Fancy Indexing, Shape manipulations
 import numpy as np
 
 # 1. 2x3 o‘lchamli massiv yaratish
