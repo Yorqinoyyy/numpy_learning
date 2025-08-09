@@ -1,4 +1,4 @@
-# numpy_day2.py
+#  numpy_day2.py
 # 2-KUN: NumPy bo‘yicha amaliy mashqlar (matematik amallar, statistik funksiyalar va h.k.)
 
 import numpy as np
