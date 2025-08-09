@@ -1,6 +1,6 @@
 # Day 4 - NumPy Practice
 # Author: Yorqinoy
-# GitHub: https://github.com/your-username (replace with your actual URL)
+# GitHub: https://github.com/yorqinoyyy
 # Description: This file contains NumPy practice examples focused on array generation,
 # basic operations, indexing, statistics, and matrix manipulations.
 
