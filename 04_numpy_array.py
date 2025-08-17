@@ -42,44 +42,29 @@ print("Random number:", random_number)
 random_array = np.random.randn(25)
 print("Random array:\n", random_array)
 
-# 10. Create a 10x10 matrix with values from 0.01 to 1.00
-matrix_10x10 = np.linspace(0.01, 1, 100).reshape(10, 10)
-print("10x10 matrix:\n", matrix_10x10)
-
-# 11. Create an array of 20 linearly spaced points between 0 and 1
+# 10. Create an array of 20 linearly spaced points between 0 and 1
 linspace_array = np.linspace(0, 1, 20)
 print("Linspace array:", linspace_array)
 
-# 12. Get the sum of all elements in a matrix
-sum_of_matrix = matrix_10x10.sum()
-print("Sum of matrix elements:", sum_of_matrix)
-
-# 13. Get the standard deviation of the matrix
-std_matrix = matrix_10x10.std()
-print("Standard deviation of matrix:", std_matrix)
-
-# 14. Sum of each column in the matrix
-sum_columns = matrix_10x10.sum(axis=0)
-print("Sum of columns:\n", sum_columns)
 
 # ----------------- 🔷 Murakkab misollar -----------------
 
-# 15. Select a submatrix from a given 5x5 matrix
+# 11. Select a submatrix from a given 5x5 matrix
 base_matrix = np.arange(1, 26).reshape(5, 5)
 print("Original 5x5 matrix:\n", base_matrix)
 
-# Extracting a 3x3 submatrix
+# 12. Extracting a 3x3 submatrix
 sub_matrix = base_matrix[2:, 1:]
 print("Submatrix 3x3:\n", sub_matrix)
 
-# 16. Fancy indexing and conditional selection
+# 13. Fancy indexing and conditional selection
 # Extract all values from base_matrix that are greater than 15
 greater_15 = base_matrix[base_matrix > 15]
 print("Values > 15:\n", greater_15)
 
 # ----------------- 🔷 Professional level misollar -----------------
 
-# 17. Normalize matrix rows to sum up to 1
+# 14. Normalize matrix rows to sum up to 1
 matrix_for_norm = np.random.randint(1, 10, (4, 4))
 print("Original matrix:\n", matrix_for_norm)
 
@@ -87,7 +72,7 @@ row_sums = matrix_for_norm.sum(axis=1).reshape(-1, 1)
 normalized_matrix = matrix_for_norm / row_sums
 print("Row-normalized matrix:\n", normalized_matrix)
 
-# 18. Compute correlation coefficient between two random arrays
+# 15. Compute correlation coefficient between two random arrays
 arr1 = np.random.randn(1000)
 arr2 = np.random.randn(1000)
 
